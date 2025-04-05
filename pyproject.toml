@@ -1,0 +1,17 @@
+[project]
+name = "orm-sqlmodel"
+version = "0.0.1"
+description = "using sqlmodel with distincts databases"
+authors = [
+    {name = "ItaSsa",email = "itairassa@gmail.com"}
+]
+readme = "README.md"
+requires-python = "3.12.3"
+dependencies = [
+    "sqlmodel (>=0.0.24,<0.0.25)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
